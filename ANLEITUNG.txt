@@ -1,0 +1,12 @@
+MG Ladeabrechnung als App wie Krav Maga
+
+1. Auf GitHub ein NEUES Repository z. B. MG-Ladeabrechnung anlegen (nicht das bestehende Krav-Maga-Repository überschreiben).
+2. ALLE Dateien dieses Pakets direkt ins Stammverzeichnis des neuen Repositorys hochladen: index.html, manifest.webmanifest, sw.js, icon-192.png, icon-512.png.
+3. Unter Settings > Pages die Veröffentlichung aus Branch main /root aktivieren.
+4. Öffentliche HTTPS-Adresse im Chrome-Browser des Smartphones aufrufen: https://BENUTZERNAME.github.io/MG-Ladeabrechnung/
+5. Chrome-Menü > App installieren bzw. Zum Startbildschirm hinzufügen wählen.
+6. Die neue App-Verknüpfung in den Ordner MG ziehen.
+
+Wichtig: Bereits gespeicherte Verbrauchswerte aus der alten lokalen HTML-Datei werden nicht automatisch auf die andere Web-Adresse übertragen. Zuerst in der bisherigen Abrechnung eine Sicherung exportieren, danach in die neue App importieren. Alternativ die Shelly-CSV erneut importieren. Keine Shelly-Zugangsdaten in GitHub hochladen.
+
+Die App speichert Daten nur in der jeweiligen Browser-/App-Umgebung. Regelmässig eine Datensicherung exportieren.
